@@ -1,0 +1,25 @@
+Mar 13 08:01:12 ubuntu systemd[1]: Started Session 14 of User root.
+Mar 13 08:01:12 ubuntu CRON[2847]: (root) CMD (/usr/lib/php/sessionclean)
+Mar 13 08:05:33 ubuntu sshd[3012]: Accepted password for admin from 192.168.1.50 port 22
+Mar 13 08:05:33 ubuntu systemd[1]: Started Session 15 of User admin.
+Mar 13 08:12:45 ubuntu kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.5 DST=192.168.1.1 PROTO=TCP
+Mar 13 08:15:01 ubuntu CRON[3105]: (root) CMD (command -v debian-sa1 > /dev/null)
+Mar 13 08:22:10 ubuntu sshd[3210]: Failed password for root from 203.0.113.15 port 55123
+Mar 13 08:22:13 ubuntu sshd[3210]: Failed password for root from 203.0.113.15 port 55123
+Mar 13 08:22:17 ubuntu sshd[3210]: Failed password for root from 203.0.113.15 port 55123
+Mar 13 08:30:00 ubuntu systemd[1]: Starting Daily apt download activities...
+Mar 13 08:30:05 ubuntu systemd[1]: Started Daily apt download activities.
+Mar 13 08:45:22 ubuntu kernel: Out of memory: Killed process 2981 (mysqld)
+Mar 13 09:00:01 ubuntu CRON[3450]: (www-data) CMD (/usr/local/bin/backup.sh)
+Mar 13 09:00:03 ubuntu backup.sh[3451]: Backup started for /var/www/html
+Mar 13 09:05:18 ubuntu backup.sh[3451]: Backup completed successfully. Size: 245MB
+Mar 13 09:10:44 ubuntu sshd[3500]: Accepted publickey for deploy from 10.0.0.20 port 43210
+Mar 13 09:15:30 ubuntu kernel: EXT4-fs error (device sda1): ext4_lookup: deleted inode referenced
+Mar 13 09:20:00 ubuntu systemd[1]: Reloading Apache HTTP Server...
+Mar 13 09:20:01 ubuntu apache2[3600]: AH00558: Could not reliably determine the server's fully qualified domain name
+Mar 13 09:25:11 ubuntu systemd[1]: Reloaded Apache HTTP Server.
+Mar 13 09:30:45 ubuntu sshd[3700]: Failed password for invalid user test from 198.51.100.23 port 22
+Mar 13 09:35:22 ubuntu kernel: [UFW BLOCK] IN=eth0 OUT= SRC=198.51.100.23 DST=192.168.1.1 PROTO=TCP
+Mar 13 09:40:00 ubuntu CRON[3801]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 13 09:45:15 ubuntu certbot[3802]: Certificate not yet due for renewal
+Mar 13 09:50:33 ubuntu sshd[3900]: Accepted password for admin from 192.168.1.50 port 22
